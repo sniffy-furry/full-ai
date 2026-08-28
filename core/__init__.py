@@ -1,0 +1,1 @@
+# Core module - Discord client and configuration
