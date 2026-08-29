@@ -1,5 +1,16 @@
 import discord
 from discord.ext import commands
+import asyncio
+import yt_dlp
+
+from core import config
+
+voice_clients = {}
+voice_queues = {}
+voice_current = {}
+voice_volume = {}
+
+# ... restul codului rămâne neschimbat ...
 
 def setup(bot):
     @bot.command(name='create_channel')

@@ -1,6 +1,7 @@
-﻿import sqlite3
-from core import config
+import sqlite3
 from datetime import datetime
+
+from core import config
 
 class Database:
     def __init__(self, db_path="bot_memory.db"):

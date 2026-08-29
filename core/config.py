@@ -21,10 +21,10 @@ def save_token(token):
 USER_TOKEN = load_token()
 
 # === MODELE AI ===
-GATEKEEPER_MODEL = "llama3.2:1.5b"
-FILTER_MODEL = "llama3.2:3b"
-RESPONDER_MODEL = "llama3.2:7b"
-VISION_MODEL = "llava:7b"
+GATEKEEPER_MODEL = "qwen2.5:1.5b"
+FILTER_MODEL = "qwen2.5:3b"
+RESPONDER_MODEL = "dolphin-llama3:latest"
+VISION_MODEL = "llava-phi3:latest"
 
 # === LIMITE ȘI RITM ===
 GLOBAL_COOLDOWN = 4.0

@@ -24,7 +24,7 @@ async def index(request):
             .card {{ background: #313244; border-radius: 10px; padding: 20px; margin: 15px 0; }}
             .status-ok {{ color: #a6e3a1; font-weight: bold; }}
             .status-err {{ color: #f38ba8; font-weight: bold; }}
-            input[type="text"] {{ width: 70%; padding: 10px; border-radius: 5px; border: none; background: #45475a; color: #cdd6f4; }}
+            input[type="text"] {{ width: 70%%; padding: 10px; border-radius: 5px; border: none; background: #45475a; color: #cdd6f4; }}
             button {{ background: #89b4fa; color: #1e1e2e; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; }}
             button:hover {{ background: #74c7ec; }}
             .info {{ color: #f9e2af; }}
@@ -110,7 +110,7 @@ async def index(request):
                     document.getElementById('voice').innerHTML = `
                         <p>🎧 Connected: ${{data.voice.connected ? '✅ Yes' : '❌ No'}}</p>
                         ${{data.voice.playing ? `<p>🎵 Now playing: <strong>${{data.voice.title}}</strong></p>` : ''}}
-                        <p>📊 ${JSON.stringify(data.voice)}</p>
+                        <p>📊 Channel: ${{data.voice.channel || 'N/A'}}</p>
                     `;
                 }} catch(e) {{
                     document.getElementById('stats').innerText = 'Error loading data.';
@@ -136,7 +136,6 @@ async def set_token(request):
 
 async def api_status(request):
     stats = config.load_stats()
-    
     voice_data = {"connected": False, "playing": False, "title": "", "channel": ""}
     try:
         from modules import voice
@@ -150,13 +149,9 @@ async def api_status(request):
                         voice_data["playing"] = True
                         voice_data["title"] = current.get("title", "Unknown")
                     break
-    except:
+    except Exception:
         pass
-    
-    return web.json_response({
-        "stats": stats,
-        "voice": voice_data
-    })
+    return web.json_response({"stats": stats, "voice": voice_data})
 
 async def start_dashboard():
     app = web.Application()

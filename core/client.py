@@ -18,13 +18,13 @@ class DiscordClient:
         @self.bot.event
         async def on_ready():
             self.ready = True
-            print(f"Authenticated as: {self.bot.user} (ID: {self.bot.user.id})")
-            print(f"Connected to {len(self.bot.guilds)} servers")
+            print(f"✅ Authenticated as: {self.bot.user} (ID: {self.bot.user.id})")
+            print(f"📊 Connected to {len(self.bot.guilds)} servers")
             try:
                 friends = [r for r in self.bot.relationships.values() if r.type == discord.RelationshipType.friend]
-                print(f"{len(friends)} friends")
+                print(f"👥 {len(friends)} friends")
             except Exception:
-                print("Friends: unknown")
+                print("👥 Friends: unknown")
             print("=" * 50)
 
         @self.bot.event
@@ -34,8 +34,16 @@ class DiscordClient:
             await self.bot.process_commands(message)
 
     def _setup_modules(self):
-        from modules import relationships, messages, channels, guilds, voice, settings, interactions, invites, webhooks, stickers, billing, experiments
-        for module in [relationships, messages, channels, guilds, voice, settings, interactions, invites, webhooks, stickers, billing, experiments]:
+        from modules import (
+            relationships, messages, channels, guilds, voice,
+            settings, interactions, invites, webhooks, stickers,
+            billing, experiments
+        )
+        for module in [
+            relationships, messages, channels, guilds, voice,
+            settings, interactions, invites, webhooks, stickers,
+            billing, experiments
+        ]:
             if hasattr(module, 'setup'):
                 module.setup(self.bot)
 
