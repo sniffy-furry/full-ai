@@ -12,7 +12,6 @@ class DiscordClient:
         )
         self.ready = False
         self._setup_events()
-        self._setup_modules()
 
     def _setup_events(self):
         @self.bot.event
@@ -27,13 +26,8 @@ class DiscordClient:
                 print("👥 Friends: unknown")
             print("=" * 50)
 
-        @self.bot.event
-        async def on_message(message):
-            if message.author.id == self.bot.user.id:
-                return
-            await self.bot.process_commands(message)
-
-    def _setup_modules(self):
+    def load_modules(self):
+        """Încarcă toate modulele după ce botul este disponibil."""
         from modules import (
             relationships, messages, channels, guilds, voice,
             settings, interactions, invites, webhooks, stickers,
@@ -44,8 +38,15 @@ class DiscordClient:
             settings, interactions, invites, webhooks, stickers,
             billing, experiments
         ]:
-            if hasattr(module, 'setup'):
-                module.setup(self.bot)
+            try:
+                if hasattr(module, 'setup'):
+                    module.setup(self.bot)
+                    print(f"✅ Loaded: {module.__name__}")
+                else:
+                    print(f"⚠️ No setup() in {module.__name__}")
+            except Exception as e:
+                print(f"❌ Error loading {module.__name__}: {e}")
+        print(f"✅ Total comenzi încărcate: {len(self.bot.commands)}")
 
     async def start(self, token):
         await self.bot.start(token)
