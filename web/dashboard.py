@@ -4,7 +4,7 @@ import os
 import sys
 from aiohttp import web
 
-import config
+from core import config
 
 logger = logging.getLogger(__name__)
 
@@ -135,10 +135,8 @@ async def set_token(request):
     os.execv(sys.executable, [sys.executable] + sys.argv)
 
 async def api_status(request):
-    from core import config as core_config
-    stats = core_config.load_stats()
+    stats = config.load_stats()
     
-    # Voice status (simplified)
     voice_data = {"connected": False, "playing": False, "title": "", "channel": ""}
     try:
         from modules import voice

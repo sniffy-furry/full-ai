@@ -1,5 +1,5 @@
-import sqlite3
-import config
+﻿import sqlite3
+from core import config
 from datetime import datetime
 
 class Database:

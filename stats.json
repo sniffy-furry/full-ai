@@ -1,0 +1,13 @@
+{
+  "messages_processed": 0,
+  "responses_sent": 0,
+  "facts_extracted": 0,
+  "spontaneous_messages": 0,
+  "toxic_blocked": 0,
+  "warnings_issued": 0,
+  "mutes_activated": 0,
+  "spam_blocked": 0,
+  "sensitive_blocked": 0,
+  "commands_used": {},
+  "start_time": "2026-08-28T19:28:54.596322"
+}

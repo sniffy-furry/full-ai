@@ -11,7 +11,7 @@ import logging
 import sys
 from datetime import datetime
 
-import config
+from core import config
 from core.client import DiscordClient
 from ai.brain import AIBrain
 from db.database import db
