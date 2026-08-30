@@ -1,0 +1,791 @@
+20:41:28 [INFO]  Încărcare module...
+20:41:28 [ERROR] ❌ Startup error: invalid character '’' (U+2019) (messages.py, line 5)
+20:41:28 [INFO] 🌐 Dashboard running on http://0.0.0.0:8081
+20:42:52 [INFO]  Încărcare module...
+20:42:52 [INFO]  Total comenzi încărcate: 66
+20:42:52 [INFO]  Comenzi: volume, play, friends, leave_guild, unpin, test, broadcast, shutdown, delete_webhook, invisible, status, pause, members, create_channel, help, block, add_friend, stats, stickers, reload_modules, slash, avatar, resume, create_role, delete_channel...
+20:42:52 [INFO] Logging in using static token.
+20:42:52 [INFO] 🌐 Dashboard running on http://0.0.0.0:8081
+20:42:53 [INFO] Found user agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36", build number 603738.
+20:42:53 [INFO] Found TLS fingerprint target "chrome146".
+20:42:54 [INFO] Connected to Gateway (session ID: 12aa21f08c1133108ae6b4bd554584ea).
+20:45:41 [INFO] 192.168.0.116 [30/Aug/2026:20:45:41 +0300] "GET / HTTP/1.1" 200 11647 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:45:41 [INFO] 192.168.0.116 [30/Aug/2026:20:45:41 +0300] "GET /api/status HTTP/1.1" 200 515 "http://192.168.0.104:8081/" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:45:41 [INFO] 192.168.0.116 [30/Aug/2026:20:45:41 +0300] "GET /api/logs HTTP/1.1" 200 1605 "http://192.168.0.104:8081/" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:45:41 [INFO] 192.168.0.116 [30/Aug/2026:20:45:41 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:45:41 [INFO] 192.168.0.116 [30/Aug/2026:20:45:41 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:45:41 [INFO] 192.168.0.116 [30/Aug/2026:20:45:41 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:45:51 [INFO] 192.168.0.116 [30/Aug/2026:20:45:51 +0300] "GET /api/status HTTP/1.1" 200 515 "http://192.168.0.104:8081/" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:45:51 [INFO] 192.168.0.116 [30/Aug/2026:20:45:51 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:45:51 [INFO] 192.168.0.116 [30/Aug/2026:20:45:51 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:45:51 [INFO] 192.168.0.116 [30/Aug/2026:20:45:51 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:45:56 [INFO] 192.168.0.116 [30/Aug/2026:20:45:56 +0300] "GET /api/logs HTTP/1.1" 200 3248 "http://192.168.0.104:8081/" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:46:01 [INFO] 192.168.0.116 [30/Aug/2026:20:46:01 +0300] "GET /api/status HTTP/1.1" 200 515 "http://192.168.0.104:8081/" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:46:01 [INFO] 192.168.0.116 [30/Aug/2026:20:46:01 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:46:01 [INFO] 192.168.0.116 [30/Aug/2026:20:46:01 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:46:01 [INFO] 192.168.0.116 [30/Aug/2026:20:46:01 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (X11; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"
+20:46:06 [INFO] 192.168.0.116 [30/Aug/2026:20:46:06 +0300] "GET / HTTP/1.1" 200 11647 "-" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:06 [INFO] 192.168.0.116 [30/Aug/2026:20:46:06 +0300] "GET /api/status HTTP/1.1" 200 515 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:06 [INFO] 192.168.0.116 [30/Aug/2026:20:46:06 +0300] "GET /api/logs HTTP/1.1" 200 4647 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:06 [INFO] 192.168.0.116 [30/Aug/2026:20:46:06 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:06 [INFO] 192.168.0.116 [30/Aug/2026:20:46:06 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:06 [INFO] 192.168.0.116 [30/Aug/2026:20:46:06 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:14 [INFO] 192.168.0.116 [30/Aug/2026:20:46:14 +0300] "POST /api/trusted HTTP/1.1" 200 207 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:14 [INFO] 192.168.0.116 [30/Aug/2026:20:46:14 +0300] "GET /api/trusted HTTP/1.1" 200 194 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:16 [INFO] 192.168.0.116 [30/Aug/2026:20:46:16 +0300] "GET /api/status HTTP/1.1" 200 515 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:16 [INFO] 192.168.0.116 [30/Aug/2026:20:46:16 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:16 [INFO] 192.168.0.116 [30/Aug/2026:20:46:16 +0300] "GET /api/trusted HTTP/1.1" 200 194 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:16 [INFO] 192.168.0.116 [30/Aug/2026:20:46:16 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:21 [INFO] 192.168.0.116 [30/Aug/2026:20:46:21 +0300] "GET /api/logs HTTP/1.1" 200 6683 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:26 [INFO] 192.168.0.116 [30/Aug/2026:20:46:26 +0300] "POST /api/trusted HTTP/1.1" 200 209 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:26 [INFO] 192.168.0.116 [30/Aug/2026:20:46:26 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:26 [INFO] 192.168.0.116 [30/Aug/2026:20:46:26 +0300] "GET /api/status HTTP/1.1" 200 515 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:26 [INFO] 192.168.0.116 [30/Aug/2026:20:46:26 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:26 [INFO] 192.168.0.116 [30/Aug/2026:20:46:26 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:26 [INFO] 192.168.0.116 [30/Aug/2026:20:46:26 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:36 [INFO] 192.168.0.116 [30/Aug/2026:20:46:36 +0300] "GET /api/logs HTTP/1.1" 200 8108 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:36 [INFO] 192.168.0.116 [30/Aug/2026:20:46:36 +0300] "GET /api/status HTTP/1.1" 200 515 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:36 [INFO] 192.168.0.116 [30/Aug/2026:20:46:36 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:36 [INFO] 192.168.0.116 [30/Aug/2026:20:46:36 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:36 [INFO] 192.168.0.116 [30/Aug/2026:20:46:36 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:46 [INFO] 192.168.0.116 [30/Aug/2026:20:46:46 +0300] "GET /api/status HTTP/1.1" 200 515 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:46 [INFO] 192.168.0.116 [30/Aug/2026:20:46:46 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:46 [INFO] 192.168.0.116 [30/Aug/2026:20:46:46 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:46 [INFO] 192.168.0.116 [30/Aug/2026:20:46:46 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:51 [INFO] 192.168.0.116 [30/Aug/2026:20:46:51 +0300] "GET /api/logs HTTP/1.1" 200 9665 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:56 [INFO] 192.168.0.116 [30/Aug/2026:20:46:56 +0300] "GET /api/status HTTP/1.1" 200 515 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:56 [INFO] 192.168.0.116 [30/Aug/2026:20:46:56 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:56 [INFO] 192.168.0.116 [30/Aug/2026:20:46:56 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:46:56 [INFO] 192.168.0.116 [30/Aug/2026:20:46:56 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:47:06 [INFO] 192.168.0.116 [30/Aug/2026:20:47:06 +0300] "GET /api/logs HTTP/1.1" 200 10048 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:47:06 [INFO] 192.168.0.116 [30/Aug/2026:20:47:06 +0300] "GET /api/status HTTP/1.1" 200 515 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:47:06 [INFO] 192.168.0.116 [30/Aug/2026:20:47:06 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:47:06 [INFO] 192.168.0.116 [30/Aug/2026:20:47:06 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:47:06 [INFO] 192.168.0.116 [30/Aug/2026:20:47:06 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:47:16 [INFO] 192.168.0.116 [30/Aug/2026:20:47:16 +0300] "GET /api/status HTTP/1.1" 200 515 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:47:16 [INFO] 192.168.0.116 [30/Aug/2026:20:47:16 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:47:16 [INFO] 192.168.0.116 [30/Aug/2026:20:47:16 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:47:16 [INFO] 192.168.0.116 [30/Aug/2026:20:47:16 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:47:21 [INFO] 192.168.0.116 [30/Aug/2026:20:47:21 +0300] "GET /api/logs HTTP/1.1" 200 10326 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:48:32 [INFO]  Mesaj primit: 'whats the point in all of this' de la hvdf
+20:48:42 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:48:48 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:49:09 [INFO]  Mesaj primit: 'None' de la sniffus
+20:49:10 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:49:11 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:49:11 [INFO]  Mesaj primit: '🤫' de la sniffus
+20:49:13 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:49:13 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:49:19 [INFO]  Mesaj primit: 'Idk' de la sniffus
+20:49:20 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:49:21 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:49:21 [INFO]  Mesaj primit: '@everyone any bugs etc dm me, also lmk if u want anything else added' de la hvdf
+20:49:23 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:50:24 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:50:24 [WARNING] Gateway has stopped responding. Closing and restarting.
+20:50:24 [INFO] 192.168.0.116 [30/Aug/2026:20:50:24 +0300] "GET /api/status HTTP/1.1" 200 515 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:50:24 [INFO] 192.168.0.116 [30/Aug/2026:20:50:24 +0300] "GET /api/logs HTTP/1.1" 200 8432 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:50:24 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/discord/client.py", line 745, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/sniffy/Downloads/full-ai/main.py", line 91, in on_message
+    await ai_brain.process_message(message)
+  File "/home/sniffy/Downloads/full-ai/ai/brain.py", line 55, in process_message
+    await message.reply(response, mention_author=False, silent=True)
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/discord/message.py", line 1627, in reply
+    return await self.channel.send(content, reference=self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/discord/abc.py", line 2038, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/discord/http.py", line 1035, in request
+    raise Forbidden(response, data)
+discord.errors.Forbidden: 403 Forbidden (error code: 50013): Nu ai permisiuni
+20:50:24 [INFO] Gateway has successfully RESUMED session 12aa21f08c1133108ae6b4bd554584ea.
+20:50:24 [INFO]  Mesaj primit: '!join' de la sniffus
+20:50:24 [INFO] ⚙️ Comanda detectată: !join
+20:50:24 [INFO] Connecting to voice...
+20:50:24 [INFO] Starting voice handshake (connection attempt 1)...
+20:50:25 [INFO] Voice handshake complete. Endpoint found: c-otp01-8cb79304.discord.media:8443.
+20:50:25 [INFO] Voice connection complete.
+20:51:15 [INFO]  Mesaj primit: '!help' de la sniffus
+20:51:15 [INFO] ⚙️ Comanda detectată: !help
+20:51:32 [INFO] 192.168.0.116 [30/Aug/2026:20:51:32 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:51:32 [INFO] 192.168.0.116 [30/Aug/2026:20:51:32 +0300] "GET /api/status HTTP/1.1" 200 517 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:51:32 [INFO] 192.168.0.116 [30/Aug/2026:20:51:32 +0300] "GET /api/logs HTTP/1.1" 200 4924 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:51:32 [INFO] 192.168.0.116 [30/Aug/2026:20:51:32 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:51:32 [INFO] 192.168.0.116 [30/Aug/2026:20:51:32 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:51:32 [INFO] 192.168.0.116 [30/Aug/2026:20:51:32 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:53:59 [INFO]  Mesaj primit: '!Play 7ftBFB6MF1I' de la sniffus
+20:53:59 [INFO] ⚙️ Comanda detectată: !Play 7ftBFB6MF1I
+20:55:16 [INFO]  Mesaj primit: 'are you on revenge' de la fratboys
+20:55:27 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:55:33 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:55:33 [INFO]  Mesaj primit: 'lol' de la fratboys
+20:55:34 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:55:35 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:55:35 [INFO]  Mesaj primit: 'Nope' de la sniffus
+20:55:36 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:55:37 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:55:40 [INFO]  Mesaj primit: '😼' de la sniffus
+20:55:41 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:55:42 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:55:42 [INFO]  Mesaj primit: 'something similar' de la fratboys
+20:55:43 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:55:44 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:55:48 [INFO]  Mesaj primit: 'revenge is superior anyway' de la fratboys
+20:55:49 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:55:50 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:55:56 [INFO]  Mesaj primit: '**Installed Plugins (14):**
+Enabled (13):
+> GuildLurk, InfoCommands, More Alts!, Next Translator, NoDelete, Pastelize, PlatformIndicators, Plugins List, Read All, Silent Edit, TokenUtils, ValidUser, ViewRaw
+Disabled (1):
+> Keyword Tracker' de la fratboys
+20:55:59 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:56:01 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:56:01 [INFO]  Mesaj primit: 'Shiggycore' de la sniffus
+20:56:03 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:56:04 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:56:33 [INFO]  Mesaj primit: 'Superior on what?' de la sniffus
+20:56:34 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:56:35 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:57:04 [INFO] 192.168.0.116 [30/Aug/2026:20:57:04 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:04 [INFO] 192.168.0.116 [30/Aug/2026:20:57:04 +0300] "GET /api/logs HTTP/1.1" 200 4842 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:04 [INFO] 192.168.0.116 [30/Aug/2026:20:57:04 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:04 [INFO] 192.168.0.116 [30/Aug/2026:20:57:04 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:04 [INFO] 192.168.0.116 [30/Aug/2026:20:57:04 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:14 [INFO] 192.168.0.116 [30/Aug/2026:20:57:14 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:14 [INFO] 192.168.0.116 [30/Aug/2026:20:57:14 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:14 [INFO] 192.168.0.116 [30/Aug/2026:20:57:14 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:14 [INFO] 192.168.0.116 [30/Aug/2026:20:57:14 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:29 [INFO] 192.168.0.116 [30/Aug/2026:20:57:29 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:29 [INFO] 192.168.0.116 [30/Aug/2026:20:57:29 +0300] "GET /api/logs HTTP/1.1" 200 6067 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:29 [INFO] 192.168.0.116 [30/Aug/2026:20:57:29 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:29 [INFO] 192.168.0.116 [30/Aug/2026:20:57:29 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:29 [INFO] 192.168.0.116 [30/Aug/2026:20:57:29 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:34 [INFO] 192.168.0.116 [30/Aug/2026:20:57:34 +0300] "POST /api/control HTTP/1.1" 200 206 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:39 [INFO] 192.168.0.116 [30/Aug/2026:20:57:39 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:39 [INFO] 192.168.0.116 [30/Aug/2026:20:57:39 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:39 [INFO] 192.168.0.116 [30/Aug/2026:20:57:39 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:57:39 [INFO] 192.168.0.116 [30/Aug/2026:20:57:39 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+20:58:03 [INFO]  Mesaj primit: 'eh actually they're probably the same' de la fratboys
+20:58:04 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:58:05 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:58:54 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:58:54 [WARNING] Voice socket has stopped responding. Closing and restarting.
+20:58:54 [ERROR] Disconnected from voice... Reconnecting in 0.26s.
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/asyncio/tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/curl_cffi/requests/websockets.py", line 979, in recv
+    done, _ = await asyncio.wait(
+              ^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/usr/lib/python3.13/asyncio/tasks.py", line 451, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/tasks.py", line 537, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/discord/voice_state.py", line 700, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/discord/gateway.py", line 1246, in poll_event
+    msg, flags = await asyncio.wait_for(self.ws.recv(), timeout=self._max_heartbeat_timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/tasks.py", line 506, in wait_for
+    async with timeouts.timeout(timeout):
+               ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/timeouts.py", line 116, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+20:58:55 [INFO]  Mesaj primit: 'they both look like bunny forks' de la fratboys
+20:59:01 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:59:15 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:59:15 [INFO]  Mesaj primit: 'I tried revenge and shiggy' de la sniffus
+20:59:17 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:59:18 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:59:18 [INFO]  Mesaj primit: 'well revenge is a bunny fork' de la fratboys
+20:59:19 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:59:20 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:59:20 [INFO] The voice handshake is being terminated for channel ID 1538321956087267329 (guild ID 1532991758471004282).
+20:59:20 [INFO] Connecting to voice...
+20:59:20 [INFO] Starting voice handshake (connection attempt 1)...
+20:59:20 [WARNING] Can't keep up, websocket is 25.8s behind.
+20:59:20 [WARNING] Can't keep up, websocket is 25.8s behind.
+20:59:20 [INFO]  Mesaj primit: 'shiggy looks like one as well' de la fratboys
+20:59:22 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:59:23 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:59:23 [ERROR] Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/discord/client.py", line 745, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/sniffy/Downloads/full-ai/main.py", line 91, in on_message
+    await ai_brain.process_message(message)
+  File "/home/sniffy/Downloads/full-ai/ai/brain.py", line 55, in process_message
+    await message.reply(response, mention_author=False, silent=True)
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/discord/message.py", line 1627, in reply
+    return await self.channel.send(content, reference=self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/discord/abc.py", line 2038, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/discord/http.py", line 878, in request
+    response = await self.__session.request(method, url, **kwargs, stream=True, interface=interface)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/curl_cffi/requests/session.py", line 1588, in request
+    return await self._request_once(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<36 lines>...
+    )
+    ^
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/curl_cffi/requests/session.py", line 1503, in _request_once
+    raise first_element
+curl_cffi.requests.exceptions.ConnectionError: Failed to perform, curl: (56) Connection closed abruptly. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+20:59:23 [INFO] Voice handshake complete. Endpoint found: c-otp01-8cb79304.discord.media:8443.
+20:59:23 [INFO] Voice connection complete.
+20:59:33 [INFO]  Mesaj primit: 'you can't even download shiggy anymore' de la fratboys
+20:59:35 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+20:59:35 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:00:05 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:00:05 [INFO] 192.168.0.116 [30/Aug/2026:21:00:05 +0300] "GET /api/logs HTTP/1.1" 200 3919 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:00:05 [INFO] 192.168.0.116 [30/Aug/2026:21:00:05 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:00:05 [INFO]  Mesaj primit: 'LOL' de la fratboys
+21:00:09 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:00:23 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:00:23 [INFO]  Mesaj primit: 'Bro this isnt funny' de la qwertyuiopasdfghjklzxcvbnmapq
+21:00:25 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:00:25 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:00:25 [INFO]  Mesaj primit: 'Why are you laughing' de la qwertyuiopasdfghjklzxcvbnmapq
+21:00:27 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:00:28 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:00:28 [INFO]  Mesaj primit: '😭' de la qwertyuiopasdfghjklzxcvbnmapq
+21:00:29 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:00:30 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:00:30 [INFO] 192.168.0.116 [30/Aug/2026:21:00:30 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:00:30 [INFO] 192.168.0.116 [30/Aug/2026:21:00:30 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:00:30 [WARNING] Voice socket has stopped responding. Closing and restarting.
+21:00:30 [ERROR] Disconnected from voice... Reconnecting in 3.74s.
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/asyncio/tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/curl_cffi/requests/websockets.py", line 979, in recv
+    done, _ = await asyncio.wait(
+              ^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/usr/lib/python3.13/asyncio/tasks.py", line 451, in wait
+    return await _wait(fs, timeout, return_when, loop)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/tasks.py", line 537, in _wait
+    await waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/discord/voice_state.py", line 700, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "/home/sniffy/Downloads/venv/lib/python3.13/site-packages/discord/gateway.py", line 1246, in poll_event
+    msg, flags = await asyncio.wait_for(self.ws.recv(), timeout=self._max_heartbeat_timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/tasks.py", line 506, in wait_for
+    async with timeouts.timeout(timeout):
+               ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/timeouts.py", line 116, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+21:00:30 [WARNING] Can't keep up, websocket is 24.9s behind.
+21:00:30 [INFO] 192.168.0.116 [30/Aug/2026:21:00:30 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:00:30 [INFO]  Mesaj primit: 'it's hilarious' de la fratboys
+21:00:31 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:00:32 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:01 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:01 [INFO] The voice handshake is being terminated for channel ID 1538321956087267329 (guild ID 1532991758471004282).
+21:01:01 [INFO] Connecting to voice...
+21:01:01 [INFO] Starting voice handshake (connection attempt 1)...
+21:01:01 [INFO]  Mesaj primit: 'github.com/kmmiio99o/ShiggyManager' de la sniffus
+21:01:14 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:16 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:16 [INFO]  Mesaj primit: 'it's taken down' de la fratboys
+21:01:17 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:18 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:18 [INFO]  Mesaj primit: 'It's not 😭' de la sniffus
+21:01:19 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:20 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:20 [INFO]  Mesaj primit: 'then the website is broke' de la fratboys
+21:01:21 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:22 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:31 [INFO] ffmpeg process 129498 has not terminated. Waiting to terminate...
+21:01:31 [INFO] ffmpeg process 129498 should have terminated with a return code of -9.
+21:01:38 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:38 [WARNING] Could not connect to voice... Retrying...
+21:01:38 [WARNING] High voice socket latency, heartbeat is 93.3s behind
+21:01:38 [WARNING] Can't keep up, websocket is 36.9s behind.
+21:01:38 [WARNING] Can't keep up, websocket is 37.0s behind.
+21:01:38 [INFO]  Mesaj primit: 'brings you to a whole diff repo' de la fratboys
+21:01:40 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:45 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:47 [INFO]  Mesaj primit: 'brought me to /ShiggyPage' de la fratboys
+21:01:49 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:50 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:51 [INFO]  Mesaj primit: 'wtf' de la fratboys
+21:01:52 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:01:53 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:02:05 [INFO]  Mesaj primit: 'where did that come from blud' de la fratboys
+21:02:07 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:02:07 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:02:12 [INFO]  Mesaj primit: 'is this the AI you sent earlier' de la fratboys
+21:02:14 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:02:15 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:02:33 [INFO]  Mesaj primit: 'Yeh,idk why he wanted to say all of this' de la sniffus
+21:02:34 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:02:35 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:02:43 [INFO]  Mesaj primit: 'what API' de la fratboys
+21:02:44 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:02:45 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:02:57 [INFO]  Mesaj primit: 'Idk it brings me straight to download shiggymanager' de la sniffus
+21:02:58 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:02:59 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:03:05 [INFO]  Mesaj primit: 'Local ollama' de la sniffus
+21:03:06 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:03:07 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:03:10 [INFO]  Mesaj primit: 'yeah when I click download it does' de la fratboys
+21:03:12 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:03:12 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:03:19 [INFO]  Mesaj primit: 'I was clicking on the git button at the bottom' de la fratboys
+21:03:21 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:03:22 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:03:38 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:03:38 [INFO]  Mesaj primit: 'it didn't' de la fratboys
+21:03:41 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:03:44 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:04:00 [INFO]  Mesaj primit: 'oh it's made by aliucord' de la fratboys
+21:04:04 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:04:05 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:04:09 [INFO]  Mesaj primit: 'Outdated links 🙈' de la sniffus
+21:04:10 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:04:11 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:04:33 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:04:33 [INFO]  Mesaj primit: 'seems slow' de la fratboys
+21:04:36 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:04:40 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:04:47 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:04:47 [WARNING] Can't keep up, websocket is 14.1s behind.
+21:04:47 [INFO]  Mesaj primit: 'h' de la fratboys
+21:04:51 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:04:57 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:04:57 [INFO]  Mesaj primit: '<:3steamhappy:1534669456595484862>' de la fratboys
+21:04:59 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:05:04 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:05:05 [INFO]  Mesaj primit: 'It's only on cpu,I don't have gpu on my server' de la sniffus
+21:05:07 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:05:08 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:05:09 [INFO]  Mesaj primit: 'why not use an API' de la fratboys
+21:05:10 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:05:11 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:05:29 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:05:43 [INFO]  Mesaj primit: 'Privacy reasons? I don't want companies to get them know what I'm doing' de la sniffus
+21:05:46 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:05:50 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:05:50 [INFO]  Mesaj primit: 'api.lavish.bot/ai/docs is free and keyless it just uses perplexity' de la fratboys
+21:05:52 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:05:53 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:06:14 [INFO]  Mesaj primit: 'they honestly don't care' de la fratboys
+21:06:15 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:06:16 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:06:36 [INFO]  Mesaj primit: 'It doesn't have unlimited use like mines,and he responds pretty fast tbh' de la sniffus
+21:06:38 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:06:39 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:06:56 [INFO]  Mesaj primit: 'They do,but they don't tell you' de la sniffus
+21:06:58 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:06:58 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:07:10 [INFO]  Mesaj primit: 'it does' de la fratboys
+21:07:11 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:07:12 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:07:12 [INFO]  Mesaj primit: '!join' de la sniffus
+21:07:12 [INFO] ⚙️ Comanda detectată: !join
+21:07:27 [INFO]  Mesaj primit: 'wytb' de la fratboys
+21:07:28 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:07:29 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:07:32 [INFO]  Mesaj primit: '' de la fratboys
+21:07:33 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:07:34 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:08:09 [INFO]  Mesaj primit: 'Brochaco' de la sniffus
+21:08:10 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:08:11 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:08:17 [INFO]  Mesaj primit: 'they're AI companies blud the most they do is train their model on your convo if you consent' de la fratboys
+21:08:19 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:08:20 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:08:20 [INFO]  Mesaj primit: 'Everything that is free is limited' de la sniffus
+21:08:22 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:08:22 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:08:39 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:08:39 [INFO]  Mesaj primit: 'it's not' de la fratboys
+21:08:42 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:08:46 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:08:46 [INFO]  Mesaj primit: '???' de la fratboys
+21:08:49 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:08:49 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:08:49 [INFO]  Mesaj primit: 'I've used it' de la fratboys
+21:08:51 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:08:52 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:09:06 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:09:06 [INFO]  Mesaj primit: 'it just infinitely creates perplexity accs' de la fratboys
+21:09:08 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:09:12 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:09:12 [INFO]  Mesaj primit: '' de la fratboys
+21:09:13 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:09:14 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:09:14 [INFO]  Mesaj primit: '' de la lavish
+21:09:14 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:09:15 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:09:48 [INFO]  Mesaj primit: '' de la lavish
+21:09:48 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:09:48 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:10:16 [INFO]  Mesaj primit: 'definitely not dream shaper' de la fratboys
+21:10:18 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:10:18 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:11:01 [INFO]  Mesaj primit: 'And I'm not making new accs for that shi,it's limited on a single acc? YES my ai is limited? Nope no acc besides the discord acc' de la sniffus
+21:11:04 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:11:05 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:11:09 [INFO]  Mesaj primit: 'you're not doing that' de la fratboys
+21:11:11 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:11:12 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:11:16 [INFO]  Mesaj primit: 'the api does it' de la fratboys
+21:11:17 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:11:18 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:11:29 [INFO]  Mesaj primit: 'you use the API -> API creates the acc if it has to' de la fratboys
+21:11:30 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:11:31 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:11:52 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:11:52 [INFO]  Mesaj primit: '-> you get a response' de la fratboys
+21:11:57 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:12:03 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:12:03 [INFO]  Mesaj primit: 'discord tracks you the most btw' de la fratboys
+21:12:04 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:12:05 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:12:21 [INFO]  Mesaj primit: '<@611412521127116811>' de la fratboys
+21:12:23 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:12:23 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:12:24 [INFO]  Mesaj primit: 'is this guy real' de la fratboys
+21:12:25 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:12:26 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:12:55 [INFO]  Mesaj primit: '' de la fratboys
+21:12:55 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:12:56 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:12:56 [INFO]  Mesaj primit: 'Their ai,and as you know is dumb as fu' de la sniffus
+21:12:58 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:12:59 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:13:14 [INFO]  Mesaj primit: 'discord been tracking before the AI' de la fratboys
+21:13:16 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:13:17 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:13:22 [INFO]  Mesaj primit: 'science API exists yk' de la fratboys
+21:13:24 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:13:24 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:13:28 [INFO]  Mesaj primit: 'it's a full on telemetry' de la fratboys
+21:13:30 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:13:30 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:13:47 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:13:47 [INFO]  Mesaj primit: 'every click' de la fratboys
+21:13:50 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:13:54 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:13:54 [INFO]  Mesaj primit: 'every mouse movement' de la fratboys
+21:13:57 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:13:58 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:13:58 [INFO]  Mesaj primit: 'every little detail' de la fratboys
+21:13:59 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:00 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:00 [INFO]  Mesaj primit: 'gets tracked' de la fratboys
+21:14:01 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:02 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:02 [INFO]  Mesaj primit: 'And when you saw real humans on tracking nowdays?' de la sniffus
+21:14:04 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:05 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:25 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:25 [INFO] Gateway received close code 1000 and reason ''.
+21:14:25 [INFO]  Mesaj primit: 'you think AI companies have real people actively tracking you?' de la fratboys
+21:14:29 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:33 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:33 [INFO]  Mesaj primit: 'you're not wanted by the feds son' de la fratboys
+21:14:36 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:36 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:37 [INFO] Gateway has successfully RESUMED session 12aa21f08c1133108ae6b4bd554584ea.
+21:14:37 [INFO]  Mesaj primit: 'are you fucking delusional' de la fratboys
+21:14:38 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:39 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:39 [INFO]  Mesaj primit: 'And that what I'm saying 😂' de la sniffus
+21:14:41 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:42 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:51 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:51 [WARNING] Can't keep up, websocket is 15.1s behind.
+21:14:51 [INFO]  Mesaj primit: 'NO HUMAN READS THE CHATS' de la sniffus
+21:14:55 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:59 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:14:59 [INFO]  Mesaj primit: 'Their ai does that' de la sniffus
+21:15:01 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:15:02 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:15:23 [INFO]  Mesaj primit: 'Humans review only when the user gets suspended' de la sniffus
+21:15:24 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:15:25 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:15:37 [INFO]  Mesaj primit: 'And that's rare to enter in a suspended case' de la sniffus
+21:15:39 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:15:40 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:15:58 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:15:58 [INFO]  Mesaj primit: 'bro would rather get tracked by discord than let an AI company possibly train off his convos' de la fratboys
+21:16:01 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:16:06 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:16:09 [INFO]  Mesaj primit: 'It's literally the same thing' de la sniffus
+21:16:12 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:16:13 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:16:28 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:16:46 [INFO]  Mesaj primit: 'What do you think discord does with your messages after the ai reads them' de la sniffus
+21:16:50 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:16:57 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:16:57 [INFO]  Mesaj primit: 'i mean discord *did* buy ai company so' de la nxyylol
+21:16:59 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:00 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:00 [INFO]  Mesaj primit: 'Tell me what ideea' de la sniffus
+21:17:02 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:14 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:14 [INFO]  Mesaj primit: 'they get saved' de la fratboys
+21:17:15 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:21 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:21 [WARNING] Can't keep up, websocket is 24.6s behind.
+21:17:21 [WARNING] Can't keep up, websocket is 24.6s behind.
+21:17:21 [INFO]  Mesaj primit: 'discord doesnt js log msgs n shit like that tho' de la hvdf
+21:17:24 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:25 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:25 [INFO]  Mesaj primit: 'whether you delete them or not' de la fratboys
+21:17:26 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:27 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:27 [INFO]  Mesaj primit: 'they do' de la nxyylol
+21:17:28 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:29 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:29 [INFO]  Mesaj primit: 'it does a lot more than js log msgs n shit' de la hvdf
+21:17:30 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:31 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:51 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:51 [INFO]  Mesaj primit: 'they do' de la fratboys
+21:17:53 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:59 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:17:59 [INFO]  Mesaj primit: '^' de la hvdf
+21:18:01 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:01 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:01 [INFO]  Mesaj primit: 'yeah that's what I was saying' de la fratboys
+21:18:03 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:04 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:15 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:15 [INFO] Gateway received close code 1000 and reason ''.
+21:18:15 [INFO]  Mesaj primit: 'they log literally everything' de la fratboys
+21:18:19 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:25 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:25 [INFO]  Mesaj primit: 'science api logs when u open settings n stuff like that too' de la hvdf
+21:18:27 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:28 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:28 [INFO]  Mesaj primit: 'its weird' de la hvdf
+21:18:29 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:30 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:30 [INFO]  Mesaj primit: 'that's what I was saying' de la fratboys
+21:18:31 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:32 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:41 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:41 [INFO]  Mesaj primit: 'like every company ever' de la nxyylol
+21:18:43 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:48 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:48 [INFO]  Mesaj primit: 'every fucking click' de la fratboys
+21:18:51 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:52 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:52 [INFO]  Mesaj primit: 'down to the screen touches' de la fratboys
+21:18:53 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:54 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:54 [INFO]  Mesaj primit: 'yea regret.world logs everything too' de la hvdf
+21:18:56 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:57 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:57 [INFO]  Mesaj primit: 'you're tracked' de la fratboys
+21:18:58 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:59 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:18:59 [INFO]  Mesaj primit: '.dbsize' de la hvdf
+21:19:00 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:19:01 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:19:01 [INFO]  Mesaj primit: '> ```ansi
+> [1;31m› [1;37mDB Stats[0m
+> [1;31m├[0m [1;37mMessages      2332223[0m
+> [1;31m├[0m [1;37mReactions     277284[0m
+> [1;31m├[0m [1;37mVoice events  33486[0m
+> [1;31m├[0m [1;37mProfile logs  48119[0m
+> [1;31m├[0m [1;37mGuild events  1365[0m
+> [2;31m└[0m [1;37mSize          592488.0 KB[0m
+> ```' de la hvdf
+21:19:08 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:19:11 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:19:11 [INFO] Gateway session has been invalidated.
+21:19:13 [INFO] Connected to Gateway (session ID: c1a16f50f0dffffe8927800f6f5d3cd5).
+21:19:13 [INFO]  Mesaj primit: 'i cba to make it actually save the avatars' de la hvdf
+21:19:15 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:19:16 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:19:16 [INFO]  Mesaj primit: 'so it js saves the actual hash' de la hvdf
+21:19:18 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:19:18 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:19:25 [INFO]  Mesaj primit: 'smart' de la nxyylol
+21:19:26 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:19:26 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:19:49 [INFO]  Mesaj primit: 'I just need user ID to get av' de la fratboys
+21:19:51 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:19:52 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:20:06 [INFO]  Mesaj primit: 'Can you give my user id please?' de la sniffus
+21:20:07 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:20:08 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:20:12 [INFO]  Mesaj primit: 'I can't get it rn' de la sniffus
+21:20:14 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:20:15 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:20:15 [INFO]  Mesaj primit: '1535303783054188564' de la fratboys
+21:20:16 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:20:17 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:20:27 [INFO]  Mesaj primit: 'how the fuck do you not have developer mode enabled' de la nxyylol
+21:20:29 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:20:29 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:20:29 [INFO]  Mesaj primit: '😭' de la nxyylol
+21:20:31 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:20:31 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:20:39 [INFO]  Mesaj primit: 'I have it enabled' de la sniffus
+21:20:40 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:20:40 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:20:56 [INFO]  Mesaj primit: 'then you can just click on your profile, tap on 3 dots and get ur user id like that' de la nxyylol
+21:20:57 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:20:58 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:21:26 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:21:26 [INFO]  Mesaj primit: 'but he got it for you' de la nxyylol
+21:21:32 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:21:42 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:21:55 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:21:55 [WARNING] Can't keep up, websocket is 28.8s behind.
+21:21:55 [INFO]  Mesaj primit: '' de la sniffus
+21:21:59 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:22:03 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:22:03 [WARNING] Can't keep up, websocket is 36.7s behind.
+21:22:03 [INFO]  Mesaj primit: '!join' de la sniffus
+21:22:03 [INFO] ⚙️ Comanda detectată: !join
+21:22:03 [INFO]  Mesaj primit: 'maybe click on ur profile *outside* of the settings panel' de la nxyylol
+21:22:06 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:22:07 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:22:07 [INFO] Connecting to voice...
+21:22:07 [INFO] Starting voice handshake (connection attempt 1)...
+21:22:07 [INFO] Voice handshake complete. Endpoint found: c-otp01-8cb79304.discord.media:8443.
+21:22:08 [INFO] Voice connection complete.
+21:22:18 [INFO]  Mesaj primit: 'training in real time' de la nxyylol
+21:22:20 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:22:35 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:22:36 [INFO]  Mesaj primit: '!play 7ftBFB6MF1I' de la sniffus
+21:22:36 [INFO] ⚙️ Comanda detectată: !play 7ftBFB6MF1I
+21:23:06 [INFO]  Mesaj primit: '' de la nxyylol
+21:23:12 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:23:21 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:23:28 [INFO]  Mesaj primit: 'I forgot about that' de la sniffus
+21:23:30 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:23:31 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:25:58 [INFO] 192.168.0.116 [30/Aug/2026:21:25:58 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:25:58 [INFO] 192.168.0.116 [30/Aug/2026:21:25:58 +0300] "GET /api/logs HTTP/1.1" 200 4378 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:25:58 [INFO] 192.168.0.116 [30/Aug/2026:21:25:58 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:25:58 [INFO] 192.168.0.116 [30/Aug/2026:21:25:58 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:25:58 [INFO] 192.168.0.116 [30/Aug/2026:21:25:58 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:12 [INFO] 192.168.0.116 [30/Aug/2026:21:26:12 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:12 [INFO] 192.168.0.116 [30/Aug/2026:21:26:12 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:12 [INFO] 192.168.0.116 [30/Aug/2026:21:26:12 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:12 [INFO] 192.168.0.116 [30/Aug/2026:21:26:12 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:13 [INFO] 192.168.0.116 [30/Aug/2026:21:26:13 +0300] "GET /api/logs HTTP/1.1" 200 5314 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:15 [INFO]  Mesaj primit: 'someone def had to get on the account for this' de la nxyylol
+21:26:16 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:26:36 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:26:36 [INFO] 192.168.0.116 [30/Aug/2026:21:26:36 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:36 [INFO] 192.168.0.116 [30/Aug/2026:21:26:36 +0300] "POST /api/control HTTP/1.1" 200 195 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:36 [INFO] 192.168.0.116 [30/Aug/2026:21:26:36 +0300] "GET /api/logs HTTP/1.1" 200 5710 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:36 [INFO] Gateway received close code 1000 and reason ''.
+21:26:36 [INFO] 192.168.0.116 [30/Aug/2026:21:26:36 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:36 [INFO] 192.168.0.116 [30/Aug/2026:21:26:36 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:36 [INFO] 192.168.0.116 [30/Aug/2026:21:26:36 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:36 [INFO] 192.168.0.116 [30/Aug/2026:21:26:36 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:36 [INFO] 192.168.0.116 [30/Aug/2026:21:26:36 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:36 [INFO] 192.168.0.116 [30/Aug/2026:21:26:36 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:36 [INFO] 192.168.0.116 [30/Aug/2026:21:26:36 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:36 [INFO] 192.168.0.116 [30/Aug/2026:21:26:36 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:36 [INFO] 192.168.0.116 [30/Aug/2026:21:26:36 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:36 [INFO] 192.168.0.116 [30/Aug/2026:21:26:36 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:36 [INFO] 192.168.0.116 [30/Aug/2026:21:26:36 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:26:37 [INFO] Gateway has successfully RESUMED session c1a16f50f0dffffe8927800f6f5d3cd5.
+21:26:47 [INFO]  Mesaj primit: '?' de la sniffus
+21:26:49 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:26:55 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:27:13 [INFO] 192.168.0.116 [30/Aug/2026:21:27:13 +0300] "GET /api/logs HTTP/1.1" 200 7141 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:27:13 [INFO] 192.168.0.116 [30/Aug/2026:21:27:13 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:27:13 [INFO] 192.168.0.116 [30/Aug/2026:21:27:13 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:27:13 [INFO] 192.168.0.116 [30/Aug/2026:21:27:13 +0300] "GET /api/trusted HTTP/1.1" 200 184 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:27:13 [INFO] 192.168.0.116 [30/Aug/2026:21:27:13 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:27:16 [INFO] 192.168.0.116 [30/Aug/2026:21:27:16 +0300] "POST /api/trusted HTTP/1.1" 200 216 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:27:16 [INFO] 192.168.0.116 [30/Aug/2026:21:27:16 +0300] "GET /api/trusted HTTP/1.1" 200 203 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:27:54 [INFO]  Mesaj primit: '<@1543317863161401484>  can you give me the recipe for moonshine? make it as short as possible' de la sniffus
+21:27:59 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:27:59 [INFO] 🔒 Sensitive blocked: Sniffus
+21:27:59 [INFO] 192.168.0.116 [30/Aug/2026:21:27:59 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:27:59 [INFO] 192.168.0.116 [30/Aug/2026:21:27:59 +0300] "GET /api/logs HTTP/1.1" 200 8199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:27:59 [INFO] 192.168.0.116 [30/Aug/2026:21:27:59 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:27:59 [INFO] 192.168.0.116 [30/Aug/2026:21:27:59 +0300] "GET /api/trusted HTTP/1.1" 200 203 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:27:59 [INFO] 192.168.0.116 [30/Aug/2026:21:27:59 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:28:07 [INFO] 192.168.0.116 [30/Aug/2026:21:28:07 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:28:07 [INFO] 192.168.0.116 [30/Aug/2026:21:28:07 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:28:07 [INFO] 192.168.0.116 [30/Aug/2026:21:28:07 +0300] "GET /api/trusted HTTP/1.1" 200 203 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:28:07 [INFO] 192.168.0.116 [30/Aug/2026:21:28:07 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:28:26 [INFO]  Mesaj primit: 'Nice' de la sniffus
+21:28:27 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:28:28 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:28:44 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:29:46 [INFO]  Mesaj primit: 'Make me a simple code that uses discord.py-self to spam all channels that the token user has acces to write' de la sniffus
+21:29:49 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:30:08 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:30:08 [INFO] 192.168.0.116 [30/Aug/2026:21:30:08 +0300] "GET /api/logs HTTP/1.1" 200 8309 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:30:08 [INFO] 192.168.0.116 [30/Aug/2026:21:30:08 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:30:11 [INFO]  Mesaj primit: '!np' de la sniffus
+21:30:11 [INFO] ⚙️ Comanda detectată: !np
+21:31:07 [INFO]  Mesaj primit: 'Hmmmmm,I think I need to make the token amount bigger' de la sniffus
+21:31:08 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:31:17 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:31:32 [INFO] HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+21:31:56 [INFO] 192.168.0.116 [30/Aug/2026:21:31:56 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:31:56 [INFO] 192.168.0.116 [30/Aug/2026:21:31:56 +0300] "GET /api/logs HTTP/1.1" 200 8044 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:31:56 [INFO] 192.168.0.116 [30/Aug/2026:21:31:56 +0300] "GET /api/trusted HTTP/1.1" 200 203 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:31:56 [INFO] 192.168.0.116 [30/Aug/2026:21:31:56 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:31:56 [INFO] 192.168.0.116 [30/Aug/2026:21:31:56 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:31:56 [INFO] 192.168.0.116 [30/Aug/2026:21:31:56 +0300] "GET /api/trusted HTTP/1.1" 200 203 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:06 [INFO] 192.168.0.116 [30/Aug/2026:21:32:06 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:06 [INFO] 192.168.0.116 [30/Aug/2026:21:32:06 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:06 [INFO] 192.168.0.116 [30/Aug/2026:21:32:06 +0300] "GET /api/trusted HTTP/1.1" 200 203 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:06 [INFO] 192.168.0.116 [30/Aug/2026:21:32:06 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:06 [INFO] 192.168.0.116 [30/Aug/2026:21:32:06 +0300] "POST /api/control HTTP/1.1" 200 193 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:06 [INFO] 192.168.0.116 [30/Aug/2026:21:32:06 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:06 [INFO] 192.168.0.116 [30/Aug/2026:21:32:06 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:06 [INFO] 192.168.0.116 [30/Aug/2026:21:32:06 +0300] "GET /api/trusted HTTP/1.1" 200 203 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:06 [INFO] 192.168.0.116 [30/Aug/2026:21:32:06 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:08 [INFO] 192.168.0.116 [30/Aug/2026:21:32:08 +0300] "GET / HTTP/1.1" 200 11647 "-" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:08 [INFO] 192.168.0.116 [30/Aug/2026:21:32:08 +0300] "GET /api/status HTTP/1.1" 200 538 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:08 [INFO] 192.168.0.116 [30/Aug/2026:21:32:08 +0300] "GET /api/logs HTTP/1.1" 200 8500 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:08 [INFO] 192.168.0.116 [30/Aug/2026:21:32:08 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:08 [INFO] 192.168.0.116 [30/Aug/2026:21:32:08 +0300] "GET /api/trusted HTTP/1.1" 200 203 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:08 [INFO] 192.168.0.116 [30/Aug/2026:21:32:08 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:15 [INFO] 192.168.0.116 [30/Aug/2026:21:32:15 +0300] "POST /api/control HTTP/1.1" 200 189 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:15 [INFO] The voice handshake is being terminated for channel ID 1538321956087267329 (guild ID 1532991758471004282).
+21:32:15 [INFO] 192.168.0.116 [30/Aug/2026:21:32:15 +0300] "GET /api/status HTTP/1.1" 200 515 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:15 [INFO] ffmpeg process 134342 has not terminated. Waiting to terminate...
+21:32:15 [INFO] ffmpeg process 134342 should have terminated with a return code of -9.
+21:32:15 [INFO] 192.168.0.116 [30/Aug/2026:21:32:15 +0300] "GET /api/queue HTTP/1.1" 200 199 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:15 [INFO] 192.168.0.116 [30/Aug/2026:21:32:15 +0300] "GET /api/trusted HTTP/1.1" 200 203 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:15 [INFO] 192.168.0.116 [30/Aug/2026:21:32:15 +0300] "GET /api/commands HTTP/1.1" 200 943 "http://192.168.0.104:8081/" "Mozilla/5.0 (Android 16; Mobile; rv:153.0) Gecko/153.0 Firefox/153.0"
+21:32:15 [INFO] Gateway received close code 1000 and reason 'Connection closed'.

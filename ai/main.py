@@ -9,17 +9,12 @@ from core import config
 from core.client import DiscordClient
 from ai.brain import AIBrain
 from db.database import db
-from web.dashboard import start_dashboard, set_bot
+from web.dashboard import start_dashboard
 
-# Configurare logging cu fișier
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
-    datefmt='%H:%M:%S',
-    handlers=[
-        logging.FileHandler("bot.log"),
-        logging.StreamHandler()
-    ]
+    datefmt='%H:%M:%S'
 )
 logger = logging.getLogger(__name__)
 
@@ -38,15 +33,15 @@ async def main():
         client = DiscordClient()
         bot = client.bot
 
-        # Setează bot-ul în dashboard pentru API
-        set_bot(bot)
-
-        logger.info(" Încărcare module...")
+        logger.info("🔄 Încărcare module...")
         client.load_modules()
 
+        # NU eliminăm comanda help, este definită în modules/messages.py
+
+        # Afișează comenzile încărcate
         cmd_names = [c.name for c in bot.commands]
-        logger.info(f" Total comenzi încărcate: {len(cmd_names)}")
-        logger.info(f" Comenzi: {', '.join(cmd_names[:25])}...")
+        logger.info(f"📋 Total comenzi încărcate: {len(cmd_names)}")
+        logger.info(f"📋 Comenzi: {', '.join(cmd_names[:25])}...")
 
         ai_brain = AIBrain(bot)
 
@@ -58,7 +53,7 @@ async def main():
                 return
 
             content = message.content.strip()
-            logger.info(f" Mesaj primit: '{content}' de la {message.author.name}")
+            logger.info(f"📨 Mesaj primit: '{content}' de la {message.author.name}")
 
             if content.startswith('!'):
                 logger.info(f"⚙️ Comanda detectată: {content}")
