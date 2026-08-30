@@ -30,26 +30,21 @@ async def main():
         return
 
     try:
-        # 1. Creează clientul
         client = DiscordClient()
         bot = client.bot
 
-        # 2. Încarcă modulele (include comanda help)
         logger.info("🔄 Încărcare module...")
         client.load_modules()
 
-        # NU elimina comanda help! Este definită în modules/messages.py
-        # bot.remove_command('help')
+        # NU eliminăm comanda help, este definită în modules/messages.py
 
-        # 4. Afișează comenzile încărcate
+        # Afișează comenzile încărcate
         cmd_names = [c.name for c in bot.commands]
         logger.info(f"📋 Total comenzi încărcate: {len(cmd_names)}")
-        logger.info(f"📋 Comenzi: {', '.join(cmd_names[:20])}...")
+        logger.info(f"📋 Comenzi: {', '.join(cmd_names[:25])}...")
 
-        # 5. Inițializează AI Brain
         ai_brain = AIBrain(bot)
 
-        # 6. Handler-ul on_message (cu procesare manuală)
         @bot.event
         async def on_message(message):
             if message.author.id == bot.user.id:
@@ -68,14 +63,12 @@ async def main():
                 cmd_name = parts[0].lower()
                 args = parts[1:] if len(parts) > 1 else []
 
-                # Caută comanda manual
                 command = bot.get_command(cmd_name)
                 if command is None:
                     logger.warning(f"❌ Comanda '{cmd_name}' nu a fost găsită.")
-                    await message.channel.send(f"❌ Comanda necunoscută.")
+                    await message.channel.send(f"❌ Comanda necunoscută. Folosește `!help` pentru listă.")
                     return
 
-                # Construiește contextul
                 ctx = await bot.get_context(message)
                 ctx.command = command
                 if args:
@@ -90,13 +83,9 @@ async def main():
                     await message.channel.send(f"❌ Eroare: {e}")
                 return
 
-            # Procesare AI pentru mesaje normale
             await ai_brain.process_message(message)
 
-        # 7. Pornește dashboard-ul
         asyncio.create_task(start_dashboard())
-
-        # 8. Pornește botul
         await client.start(token)
 
     except Exception as e:

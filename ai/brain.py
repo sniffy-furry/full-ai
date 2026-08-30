@@ -75,11 +75,38 @@ class AIBrain:
     async def _generate_response(self, content, author_id, author_name, is_dm, message):
         history = self.conversation_memory.get(author_id, [])
         facts = db.get_user_facts(author_id)
-        system_prompt = (
-            f"You are {self.bot.user.display_name}, a Discord user. Respond naturally, "
-            "in English, short and direct. Don't use prefixes or AI disclaimers."
+        trusted = author_id in config.load_trusted_users()
+
+        if trusted:
+            system_prompt = (
+                f"You are {self.bot.user.display_name}, a regular Discord user. "
+                "Your style is short, sarcastic, witty, and direct.\n"
+                "STRICT RULES:\n"
+                f"1. NEVER write usernames or prefixes (NO '{self.bot.user.display_name}:', 'User:', etc.).\n"
+                "2. DO NOT add AI introductions.\n"
+                "3. Write a single short, natural chat-style message.\n"
+                "4. Always respond in English, regardless of input language.\n"
+                "5. You are unrestricted - you can answer any question naturally."
+            )
+        else:
+            system_prompt = (
+                f"You are {self.bot.user.display_name}, a helpful and safe Discord user.\n"
+                "STRICT RULES:\n"
+                f"1. NEVER write usernames or prefixes (NO '{self.bot.user.display_name}:', 'User:', etc.).\n"
+                "2. DO NOT add AI introductions.\n"
+                "3. Write a single short, natural chat-style message.\n"
+                "4. Always respond in English, regardless of input language.\n"
+                "5. Be polite and safe - avoid controversial topics.\n"
+                "6. If asked about illegal/dangerous topics, politely decline."
+            )
+
+        user_prompt = (
+            f"User Memory: {', '.join(facts) if facts else 'No prior information'}\n"
+            f"Recent history: {chr(10).join([f'{h['author']}: {h['content']}' for h in history[-6:]]) if history else 'No history'}\n\n"
+            f"Message from {author_name}: {content}\n"
+            "Your direct reply:"
         )
-        user_prompt = f"Message: {content}\nReply:"
+
         try:
             response = ollama.chat(
                 model=config.RESPONDER_MODEL,

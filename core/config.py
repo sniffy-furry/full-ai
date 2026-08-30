@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# === AUTENTIFICARE ===
 OWNER_ID = int(os.getenv("OWNER_ID", 0))
+
 TOKEN_FILE = "token.txt"
 
 def load_token():
@@ -20,37 +20,40 @@ def save_token(token):
 
 USER_TOKEN = load_token()
 
-# === MODELE AI ===
+# Modele Ollama
 GATEKEEPER_MODEL = "qwen2.5:1.5b"
 FILTER_MODEL = "qwen2.5:3b"
 RESPONDER_MODEL = "dolphin-llama3:latest"
 VISION_MODEL = "llava-phi3:latest"
 
-# === LIMITE ȘI RITM ===
+# Limite și ritm
 GLOBAL_COOLDOWN = 4.0
 HISTORY_LIMIT = 50
 MESSAGE_TTL_SECONDS = 900
 CLEANUP_INTERVAL_SECONDS = 300
 
-# === MESAJE SPONTANE ===
+# Mesaje spontane
 SPONTANEOUS_ENABLED = True
 MIN_SPONTANEOUS_INTERVAL = 1800
 MAX_SPONTANEOUS_INTERVAL = 7200
 
-# === VOICE ===
+# Memorie conversațională
+MAX_CONVERSATION_TURNS = 8
+
+# Voice
 DEFAULT_VOLUME = 0.5
 VOICE_TIMEOUT_SECONDS = 300
 
-# === WEB DASHBOARD ===
+# Dashboard Web
 WEB_HOST = "0.0.0.0"
 WEB_PORT = 8081
 
-# === FIȘIERE DE STARE ===
+# Fișiere de stare
 STATS_FILE = "stats.json"
 IGNORED_CHANNELS_FILE = "ignored_channels.json"
 TRUSTED_USERS_FILE = "trusted_users.json"
 
-# === COADĂ ===
+# Coadă
 MESSAGE_QUEUE_TIMEOUT_SECONDS = 600
 MAX_QUEUE_LOW_PRIORITY = 3
 
@@ -70,48 +73,52 @@ MAX_REPEATED_CHAR_PERCENT = 80
 SPAM_CACHE_SIZE = 5
 REPEAT_COOLDOWN_SECONDS = 30
 
-# === UTILITARE ===
-def load_json_file(filename, default=None):
-    try:
-        with open(filename, "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return default if default is not None else {}
-
-def save_json_file(filename, data):
-    with open(filename, "w") as f:
-        json.dump(data, f, indent=2)
-
 def load_ignored_channels():
-    return set(load_json_file(IGNORED_CHANNELS_FILE, []))
+    try:
+        with open(IGNORED_CHANNELS_FILE, "r") as f:
+            return set(json.load(f))
+    except FileNotFoundError:
+        return set()
 
 def save_ignored_channels(channels):
-    save_json_file(IGNORED_CHANNELS_FILE, list(channels))
+    with open(IGNORED_CHANNELS_FILE, "w") as f:
+        json.dump(list(channels), f, indent=2)
 
 def load_trusted_users():
-    return set(load_json_file(TRUSTED_USERS_FILE, []))
+    """Încarcă lista de utilizatori de încredere (AI nerestricționat)."""
+    try:
+        with open(TRUSTED_USERS_FILE, "r") as f:
+            return set(json.load(f))
+    except FileNotFoundError:
+        return set()
 
 def save_trusted_users(users):
-    save_json_file(TRUSTED_USERS_FILE, list(users))
+    """Salvează lista de utilizatori de încredere."""
+    with open(TRUSTED_USERS_FILE, "w") as f:
+        json.dump(list(users), f, indent=2)
 
 def load_stats():
-    stats = load_json_file(STATS_FILE, {
-        "messages_processed": 0,
-        "responses_sent": 0,
-        "facts_extracted": 0,
-        "spontaneous_messages": 0,
-        "toxic_blocked": 0,
-        "warnings_issued": 0,
-        "mutes_activated": 0,
-        "spam_blocked": 0,
-        "sensitive_blocked": 0,
-        "commands_used": {},
-        "start_time": None
-    })
-    return stats
+    try:
+        with open(STATS_FILE, "r") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {
+            "messages_processed": 0,
+            "responses_sent": 0,
+            "facts_extracted": 0,
+            "spontaneous_messages": 0,
+            "toxic_blocked": 0,
+            "warnings_issued": 0,
+            "mutes_activated": 0,
+            "spam_blocked": 0,
+            "sensitive_blocked": 0,
+            "commands_used": {},
+            "start_time": None
+        }
 
 def save_stats(stats):
     if stats["start_time"] is None:
         from datetime import datetime
         stats["start_time"] = datetime.now().isoformat()
-    save_json_file(STATS_FILE, stats)
+    with open(STATS_FILE, "w") as f:
+        json.dump(stats, f, indent=2)
