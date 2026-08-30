@@ -31,12 +31,12 @@ class DiscordClient:
         from modules import (
             relationships, messages, channels, guilds, voice,
             settings, interactions, invites, webhooks, stickers,
-            billing, experiments
+            billing, experiments, admin
         )
         for module in [
             relationships, messages, channels, guilds, voice,
             settings, interactions, invites, webhooks, stickers,
-            billing, experiments
+            billing, experiments, admin
         ]:
             try:
                 if hasattr(module, 'setup'):

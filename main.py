@@ -34,25 +34,22 @@ async def main():
         client = DiscordClient()
         bot = client.bot
 
-        # 2. Încarcă modulele
+        # 2. Încarcă modulele (include comanda help)
+        logger.info("🔄 Încărcare module...")
         client.load_modules()
 
-        # Elimină comanda implicită help pentru a evita conflicte
-        bot.remove_command('help')
+        # NU elimina comanda help! Este definită în modules/messages.py
+        # bot.remove_command('help')
 
-        # 3. Comenzi de test (direct pe bot)
-        @bot.command(name='ping')
-        async def ping_cmd(ctx):
-            await ctx.send("pong")
+        # 4. Afișează comenzile încărcate
+        cmd_names = [c.name for c in bot.commands]
+        logger.info(f"📋 Total comenzi încărcate: {len(cmd_names)}")
+        logger.info(f"📋 Comenzi: {', '.join(cmd_names[:20])}...")
 
-        @bot.command(name='test')
-        async def test_cmd(ctx):
-            await ctx.send("✅ Test command works!")
-
-        # 4. Inițializează AI Brain
+        # 5. Inițializează AI Brain
         ai_brain = AIBrain(bot)
 
-        # 5. Handler-ul on_message (procesare corectă)
+        # 6. Handler-ul on_message (cu procesare manuală)
         @bot.event
         async def on_message(message):
             if message.author.id == bot.user.id:
@@ -63,36 +60,43 @@ async def main():
             content = message.content.strip()
             logger.info(f"📨 Mesaj primit: '{content}' de la {message.author.name}")
 
-            # Procesare comenzi cu prefix !
             if content.startswith('!'):
                 logger.info(f"⚙️ Comanda detectată: {content}")
-                # Normalizează: elimină '!' și spațiile
-                cmd = content[1:].strip()
-                if not cmd:
+                parts = content[1:].strip().split()
+                if not parts:
+                    return
+                cmd_name = parts[0].lower()
+                args = parts[1:] if len(parts) > 1 else []
+
+                # Caută comanda manual
+                command = bot.get_command(cmd_name)
+                if command is None:
+                    logger.warning(f"❌ Comanda '{cmd_name}' nu a fost găsită.")
+                    await message.channel.send(f"❌ Comanda necunoscută.")
                     return
 
-                # Obține contextul
+                # Construiește contextul
                 ctx = await bot.get_context(message)
-
-                # Verifică dacă comanda există
-                if ctx.command is not None:
-                    try:
-                        await bot.invoke(ctx)  # ← corect
-                    except Exception as e:
-                        logger.error(f"Eroare la executare: {e}")
-                        await message.channel.send(f"❌ Eroare: {e}")
+                ctx.command = command
+                if args:
+                    ctx.args = [ctx] + args
                 else:
-                    logger.warning(f"❌ Comanda '{cmd}' nu a fost găsită.")
-                    await message.channel.send(f"❌ Comanda necunoscută.")
+                    ctx.args = [ctx]
+
+                try:
+                    await bot.invoke(ctx)
+                except Exception as e:
+                    logger.error(f"Eroare la executare: {e}")
+                    await message.channel.send(f"❌ Eroare: {e}")
                 return
 
             # Procesare AI pentru mesaje normale
             await ai_brain.process_message(message)
 
-        # 6. Pornește dashboard-ul
+        # 7. Pornește dashboard-ul
         asyncio.create_task(start_dashboard())
 
-        # 7. Pornește botul
+        # 8. Pornește botul
         await client.start(token)
 
     except Exception as e:

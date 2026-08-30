@@ -1,21 +1,9 @@
 import discord
 from discord.ext import commands
-import asyncio
-import yt_dlp
-
-from core import config
-
-voice_clients = {}
-voice_queues = {}
-voice_current = {}
-voice_volume = {}
-
-# ... restul codului rămâne neschimbat ...
 
 def setup(bot):
     @bot.command(name='create_webhook')
-    async def create_webhook(ctx, channel_id: int, name: str):
-        """Creează un webhook"""
+    async def create_webhook_cmd(ctx, channel_id: int, name: str):
         channel = bot.get_channel(channel_id)
         if not channel:
             await ctx.send("❌ Canal inexistent")
@@ -27,8 +15,7 @@ def setup(bot):
             await ctx.send(f"❌ Eroare: {e}")
 
     @bot.command(name='webhook_send')
-    async def webhook_send(ctx, webhook_url: str, *, content: str):
-        """Trimite un mesaj prin webhook"""
+    async def webhook_send_cmd(ctx, webhook_url: str, *, content: str):
         try:
             async with discord.AsyncWebhook.from_url(webhook_url, session=bot.http.session) as webhook:
                 await webhook.send(content)
@@ -37,8 +24,7 @@ def setup(bot):
             await ctx.send(f"❌ Eroare: {e}")
 
     @bot.command(name='delete_webhook')
-    async def delete_webhook(ctx, webhook_url: str):
-        """Șterge un webhook"""
+    async def delete_webhook_cmd(ctx, webhook_url: str):
         try:
             async with discord.AsyncWebhook.from_url(webhook_url, session=bot.http.session) as webhook:
                 await webhook.delete()
